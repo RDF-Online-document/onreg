@@ -1,0 +1,100 @@
+
+        :root {
+            --primary-color: #1a5f7a;  /* Dark Green */
+            --secondary-color: #2c3e50;  /* Dark Blue */
+            --background-color: #f4f4f4;  /* Light Gray */
+            --text-color: #333;  /* Dark Text */
+            --white: #ffffff;  /* White */
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background.jpg');
+            background-size: cover;
+            color: var(--white);
+            text-align: center;
+            padding: 100px 0;
+        }
+        .services-section {
+            padding: 50px 0;
+            background-color: var(--background-color);
+        }
+        .footer {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 30px 0;
+        }
+        .social-icons a {
+            color: var(--white);
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: var(--secondary-color);
+        }
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+ .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+     padding: 0 15px;
+              }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand .logo {
+    width: 80px;
+    margin-right: 15px;
+  }
+  
+  .navbar-menu ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-menu ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar-menu ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu ul li.active a {
+    color: var(--primary-color);
+  }
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  .logout-button {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 8px 15px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+  }
+    
